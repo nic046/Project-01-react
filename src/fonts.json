@@ -1,0 +1,12 @@
+[
+    { "name": "Roboto", "style": "normal" },
+    { "name": "Merriweather", "style": "italic" },
+    { "name": "Lobster", "style": "oblique" },
+    { "name": "Playfair Display", "style": "italic" },
+    { "name": "Montserrat", "style": "italic" },
+    { "name": "Indie Flower", "style": "handwriting" },
+    { "name": "Space Mono", "style": "italic" },
+    { "name": "Oswald", "style": "normal" },
+    { "name": "Caveat", "style": "oblique" },
+    { "name": "Courier New", "style": "italic" }
+  ]

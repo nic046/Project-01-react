@@ -1,0 +1,14 @@
+button{
+    background-color: rgba(243, 215, 174, 0.715);
+    color: black;
+    border-radius: 0.5em;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+    will-change: transform;
+    &:hover{
+        background-color: rgba(211, 195, 173, 0.905);
+    }
+}

@@ -1,0 +1,54 @@
+#root {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25em;
+    padding: 2em 0;
+}
+
+.heading{
+    color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+    text-shadow: 5px 5px 0 #00000050;
+}
+
+.card{
+    width: 100%;
+    background-image: url("./assets/rectangle1.svg");
+    aspect-ratio: 20 /9;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    color: black;
+    transition: transform 0.3s ease;
+    will-change: transform;
+    &:hover{
+        transform: scale(1.1) rotate(2deg);
+    }
+}
+
+.card__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 650px;
+    padding: 0 2em;
+}
+
