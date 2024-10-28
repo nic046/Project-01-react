@@ -4,7 +4,7 @@ import phrases from "./phrases.json";
 import "./App.css";
 import fonts from "./fonts.json";
 import { randomIndex } from "./helpers/randomIndex";
-import Button from "./button.jsx";
+import Button from "./Button.jsx";
 import Font from "./Font.jsx";
 import Title from "./Title.jsx";
 
